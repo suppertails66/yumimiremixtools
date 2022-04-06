@@ -1,0 +1,86 @@
+********************************************************************************
+*                               Yumimi Mix Remix                               *
+*                     English Translation Patch Materials                      *
+********************************************************************************
+
+This package contains the source materials (code/art/script) for the English 
+translation project for the Sega Saturn game Yumimi Mix Remix.
+
+                    ****************************************
+                    *          Build Instructions          *
+                    ****************************************
+                    
+The build system is only set up for Unix-like systems, though none of the code 
+is fundamentally dependent on this and could be ported with a bit of effort. 
+You'll need GCC, libpng, and ImageMagick (the "convert" utility), as well as any 
+dependencies of armips.
+
+You'll first need a disc image of Yumimi Mix Remix for the Sega Saturn. Use of 
+the Redump-verified image is highly recommended but not strictly required.
+
+  Redump name: Yumimi Mix Remix
+  CRC32:       8c291ee5
+  MD5:         d8661e29c0b882afc09f8c9fb42b06ab
+  SHA-1:       77793fe43f10ccb19a724e78d16ac4fdb7c711b3
+
+Consult redump.org for full details: http://redump.org/disc/43000/
+
+In order to build, you'll need to extract the various resources from the disc 
+and put them in the "yumimi/disc" folder in a particular configuration. Most of 
+the work can be done automatically with the "discanalyze" utility included with 
+discaster. Assuming you have a single-file disc image in BIN format called 
+"yumimi.bin", do this:
+
+$ cd yumimi
+$ make -C../discaster
+$ ../discaster/discanalyze yumimi.bin disc
+
+This will extract the filesystem and the disc's system area and place them in 
+the "disc/files" and "disc/gen" folders, respectively. You can delete the 
+automatically generated "disc/script_template.dsc" file if you want, as it's not 
+needed.
+
+You'll also need to extract the CD audio tracks, and because I've yet to add CUE 
+file support to discanalyze, this has to be done manually for now. If you have 
+the bchunk (binchunker) utility installed, you can do this as follows:
+
+$ cd yumimi
+$ mkdir -p disc/cdda
+$ bchunk -w yumimi.bin yumimi.cue disc/cdda/yumimi
+
+You can delete the file "disc/cdda/yumimi01.iso" afterward. This should leave 
+you with three audio files in WAV format in that directory, named 
+"yumimi02.wav", "yumimi03.wav", etc.
+
+Once the "disc" folder is fully set up, all you have to do is:
+
+$ cd yumimi
+$ ./build.sh
+
+build.sh should then build all the necessary tools and output the translated 
+game in BIN+CUE format as "yumimi_build.bin" and "yumimi_build.cue".
+
+Note that translated game text is taken from the CSV files in the 
+"yumimi/script" directory. While these can be edited directly, it will probably 
+be easier to instead work with the ODS files in the same folder, which are 
+formatted ODS spreadsheet versions of the same content. Just run 
+"convertscript.sh" before "build.sh" to convert the ODS files into the CSVs 
+automatically (requires OpenOffice).
+
+If you want to modify the project, check build.sh to see where the resources 
+that get inserted into the game are coming from.
+
+                    ****************************************
+                    *              Licensing               *
+                    ****************************************
+
+See COPYING. Basically, everything by me (Supper) is GPLv3, and everything else
+is under the terms of whoever wrote it.
+
+                    ****************************************
+                    *               Credits                *
+                    ****************************************
+
+                                Supper -- Hacking and Translation
+                                cccmar -- Testing
+
