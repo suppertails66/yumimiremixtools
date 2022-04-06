@@ -1,0 +1,6 @@
+loc_0008b1d1: transferPatternData           ()
+loc_0008b1d3: setScroll                     (0x0000 0x0000 [ ])
+loc_0008b1d9: draw                          (0x01)
+loc_0008b1dc: setLoopStart                  (0x01)
+loc_0008b1df: draw                          (0x1e)
+loc_0008b1e2: waitForCdd                    (0x0003 0x0006 0x001e)

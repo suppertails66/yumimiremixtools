@@ -1,0 +1,10 @@
+[ObjMap_0]
+x=0x7F
+y=0x9B
+
+[Properties]
+NumBgMaps=0x3
+NumObjMaps=0x1
+NumPcmData=0x2
+Unknown=0x8080
+

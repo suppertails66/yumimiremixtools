@@ -1,0 +1,166 @@
+
+~0x6000924 = interrupt handler?
+             where is this code loaded? bios?
+             makes call that leads to e.g. vdp2 cram writes
+             0x6000842 = start?
+             0x0601A248 = vsync interrupt handler?
+
+0x06012544 = loadSceneFile
+0x06013490 = playSubscene
+0x06013B68 = draws frame?
+0x06014390 = advanceSceneNFrames?
+0x06019EF0 = load from cd?
+             for e.g. yumimi puzzle abk files
+0x06019FCE = load from cd? in some way
+             not sure how the source is being calculated,
+             but it definitely loads stuff
+             used by e.g. playSceneSound
+0x0601A1D8 = load from cd????
+             for e.g. some yumimi puzzle abk files??
+0x0601AAF6 = playSceneSound?
+             r4 = sound index
+             r5 = target channel?
+0x0601EA74 = memcpy??
+          note that this is also used for e.g. vdp1 vram transfers,
+          such as when uploading the pause graphic
+0x0604DAFC = waitForVsync?
+0x0604F0B4 = doVsyncDma?
+             set up and perform dma? presumably at vsync
+
+601F648 = word: pressedButtons?
+601F64A = word: ??? something to do with previous state of pressedButtons
+6030B78 = long: "frame" count for save file timer.
+          this is not actually ticked every frame, but periodically
+          has varying amounts added to it as the game runs.
+          maybe only updated when draw commands are executed, and then
+          with the count of frames requested?
+6030B8A = ? soft reset triggered flag?
+6030B90 = word: scene noskip flag
+          set either by individual scenes (in replay mode) or permanently
+          (in regular game mode) to prevent scenes from being skipped
+6030B92 = word: nonzero when scene skip activated
+6030B94 = word: nonzero when start held?
+          pause/unpause requested?
+6030B98 = word: nonzero when transitioning to next (sub)scene?
+6030B9E = game mode?
+          0 = regular game
+          1 = continued game (reset to 0 at some point after scene playback)
+          2 = replay
+          3 = puzzle
+6030BD0 = subscene index for scenes with multiple subscenes
+6032DEC = word: parity for scene memory?
+          determines e.g. whether background tile data is sent to vdp2 vramA or vramB
+          flipped every time new (sub)scene is loaded
+          see 0x06012A4C
+6032F30 = local memory for vdp2 cram?
+          probably "emulated" palettes only
+6033028 = word: pendingDisplayListSize?
+          current count of sprites in local vdp1 sprite table (6033848) that will
+          eventually be sent to memory?
+          determines size of vdp1 command table dma
+          includes terminator entry?
+603302C = long: ??? sprite-related? frame count??
+6033848 = pendingDisplayList
+          local memory for vdp1 sprite table
+          - 0x8000 bytes (1024 0x20-byte entries sprites)
+          - based on memory state after playing through the entire game,
+            most likely, less than 0x2800 bytes of this space is ever actually
+            used
+          - sent to vdp1 by dma each frame (see 0x0604F0B4)
+603B848 = word: currentSpritesDisplayedCount?
+          count of sprites currently being displayed?
+          or items in list?
+          not including terminator?
+603B860 = long: current dst in vdp1 during initial scene setup copy
+          (see function at 0x06019B28)
+603B870 = long: current offset into script data at 603B920
+603B920 = script data for current (sub?)scene
+60493E0 = local memory for SPCTL vdp2 reg
+          set and written to vdp2 only once on startup?
+          - value is always 0x3005 = sprite mode 5, so pixel format is:
+             15  14  13  12  11  10+
+            | SD|PR2|PR1|PR0|CC0|11 bits of color selection
+            for "high-priority" sprites, the game sets PR to 1; otherwise, 0
+6058748-606C000 = free space? ~0x13800 bytes (78 kb)
+
+- graphics are "double buffered" to avoid the need to black out the screen
+  during scene changes, which the mcd version lacked the vram to do.
+  background graphics are handled via vdp2, alternating between
+  0x40000-byte buffers at vram 0x0 and 0x40000,
+  while sprites are handled via vdp1, alternating between
+  0x30000-byte buffers at vram 0x20000 and 0x50000 (with the first 0x20000
+  bytes reserved for commands?).
+  in practice, it looks like only the first 0x14000 bytes or so of vdp1 vram
+  are used, which should leave room for additional stuff.
+  actually, probably not even that? stuff gets set by the bios and never
+  cleared, so it's not immediately obvious what the game itself actually writes.
+  probably there's a lot of room to spare, though.
+  possibly starting at ~0x10800?
+  - "pause" graphic is sent to 0x11000-0x12180
+  - apparently this is more complicated than is immediately apparent,
+    as overwriting ranges such as 0x1D000+ with the font causes
+    e.g. missing sprites
+    - no, actually i just had an instruction in a delay slot that
+      shouldn't have been, causing the font to overwrite too much memory.
+      never mind!
+  
+60124d0 -> 601ea74
+
+- cram 0x400+ seems to not be written/used, including in yumimi puzzle
+
+streams:
+  - each stream has a "local" timer that counts from when its associated stream
+    began playing; the standard wait commands check against this
+  - also have sync counters?
+
+slots:
+  - there are two subtitle "slots" (top and bottom), each of which contains
+    a string that is rendered each frame. any stream can target any slot.
+    - slots themselves need to have timers for karaoke timing purposes;
+      initialize to value of "parent" stream's timer?
+      or just link slot to parent stream and use that to access the timer?
+      i guess it would be slightly better practice to copy the timer
+      instead of just referencing it in case the slot remains the same
+      while the stream resets... though i doubt it'll actually matter
+    - is it worth having an "auto-off" time for slots?
+      "if something else hasn't interrupted the slot by this time, turn it off"?
+      ...probably not? might be easier just to auto-generate those commands at
+      the end of sound-associated streams
+
+67d70
+67d7c
+67dc4
+
+16256
+16300
+
+0111000111101000
+0011111010000000
+1.4765625
+0.562242424221
+674.690909065 cents
+1.4765625 freq multiplier
+
+2102D0
+
+0x06030B8E
+
+credits subscenes requiring additional prerendered zoom frames:
+  - 4
+  - 5
+  - 6
+  - 12
+  x 19 does rotation, but doesn't have subtitles over it and doesn't
+    seem to cause issues anyway
+  - 22
+  - 23
+
+0xAE54 + 0x18FA4 = 0x23DF8
+0x3BC00
+
+734 = 71.68%
+181 = 56.56%
+195
+88
+
+

@@ -1,0 +1,746 @@
+,,,,"//==================================
+// File: C021.DAT
+//==================================",,,
+string,C021.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x97"")
+#P(""y"", ""0x14"")
+#P(""w"", ""0xA"")
+#P(""h"", ""0x4"")
+#P(""autoW"", ""1"")",,,,,
+string,C021.DAT-choice-0-0,,,セーブする,Save,,
+string,C021.DAT-choice-0-1,,,しない,Don't save,,
+,,,,"//==================================
+// File: C101B.DAT
+//==================================",,,
+string,C101B.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x14"")
+#P(""y"", ""0x4"")
+#P(""w"", ""0x10"")
+#P(""h"", ""0x4"")
+#P(""autoW"", ""1"")",,,,,
+string,C101B.DAT-choice-0-0,,,死ぬ思いで起きる,"Get up, at risk of death","NOTE: literally more like ""wake up feeling like you're going to die""",
+string,C101B.DAT-choice-0-1,,,死にそうなので寝る,"Since you might die, sleep",,
+,,,,"//==================================
+// File: C101F.DAT
+//==================================",,,
+string,C101F.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+//#P(""x"", ""0x14"")
+#P(""x"", ""0x12"")
+#P(""y"", ""0x4"")
+#P(""w"", ""0x10"")
+#P(""h"", ""0x4"")
+#P(""autoW"", ""1"")",,,,,
+string,C101F.DAT-choice-0-0,,,仕方ないので起きる,"There's no choice, so get up",,
+string,C101F.DAT-choice-0-1,,,仕方あっても眠る,"There IS a choice, so sleep",CHECK,
+,,,,"//==================================
+// File: C102.DAT
+//==================================",,,
+string,C102.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x4"")
+#P(""y"", ""0x4"")
+#P(""w"", ""0xD"")
+#P(""h"", ""0x6"")
+#P(""autoW"", ""1"")",,,,,
+string,C102.DAT-choice-0-0,,,寝る,Sleep,,
+string,C102.DAT-choice-0-1,,,今日は学校休む,Play hookey,,
+string,C102.DAT-choice-0-2,,,起きる,Wake up,,
+,,,,"//==================================
+// File: C105C.DAT
+//==================================",,,
+string,C105C.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x8"")
+#P(""y"", ""0x8"")
+#P(""w"", ""0x8"")
+#P(""h"", ""0x4"")
+#P(""autoW"", ""1"")",,,,,
+string,C105C.DAT-choice-0-0,,,食べる,Eat,,
+string,C105C.DAT-choice-0-1,,,食べない,Don't eat,,
+,,,,"//==================================
+// File: C105D.DAT
+//==================================",,,
+string,C105D.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x8"")
+#P(""y"", ""0x8"")
+#P(""w"", ""0x8"")
+#P(""h"", ""0x4"")
+#P(""autoW"", ""1"")",,,,,
+string,C105D.DAT-choice-0-0,,,食べる,Eat,,
+string,C105D.DAT-choice-0-1,,,食べない,Don't eat,,
+,,,,"//==================================
+// File: C113A.DAT
+//==================================",,,
+string,C113A.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x6"")
+#P(""y"", ""0x5"")
+#P(""w"", ""0x6"")
+#P(""h"", ""0x4"")
+#P(""autoW"", ""1"")",,,,,
+string,C113A.DAT-choice-0-0,,,走る,Run,,
+string,C113A.DAT-choice-0-1,,,歩く,Walk,,
+,,,,"//==================================
+// File: C113B.DAT
+//==================================",,,
+string,C113B.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x6"")
+#P(""y"", ""0x5"")
+#P(""w"", ""0x6"")
+#P(""h"", ""0x4"")
+#P(""autoW"", ""1"")",,,,,
+string,C113B.DAT-choice-0-0,,,走る,Run,,
+string,C113B.DAT-choice-0-1,,,歩く,Walk,,
+,,,,"//==================================
+// File: C117.DAT
+//==================================",,,
+string,C117.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x4"")
+#P(""y"", ""0x13"")
+#P(""w"", ""0xE"")
+#P(""h"", ""0x6"")
+#P(""autoW"", ""1"")",,,,,
+string,C117.DAT-choice-0-0,,,ケセランパサラン,Keseran-Pasaran,NOTE: see the main script for explanations of all this crap,
+string,C117.DAT-choice-0-1,,,ただのホタル,Plain old fireflies,CHECK,
+string,C117.DAT-choice-0-2,,,ユーレイ,Ghosts,,
+string,C117.DAT-choice-1-props,"#P(""tilemapId"", ""0x2"")
+#P(""x"", ""0x4"")
+#P(""y"", ""0x13"")
+#P(""w"", ""0xA"")
+#P(""h"", ""0x6"")
+#P(""autoW"", ""1"")",,,,,
+string,C117.DAT-choice-1-0,,,綿菓子,Cotton candy,,
+string,C117.DAT-choice-1-1,,,マルチーズ,Malteses,,
+string,C117.DAT-choice-1-2,,,ユーレイ,Ghosts,,
+string,C117.DAT-choice-2-props,"#P(""tilemapId"", ""0x3"")
+#P(""x"", ""0x4"")
+#P(""y"", ""0x13"")
+#P(""w"", ""0xB"")
+#P(""h"", ""0x6"")
+#P(""autoW"", ""1"")",,,,,
+string,C117.DAT-choice-2-0,,,トゥクトゥプ,Tooktoop,,
+string,C117.DAT-choice-2-1,,,ティラミス,Tiramisu,,
+string,C117.DAT-choice-2-2,,,ユーレイ！,Ghosts!,,
+string,C117.DAT-choice-3-props,"#P(""tilemapId"", ""0x4"")
+#P(""x"", ""0x4"")
+#P(""y"", ""0x11"")
+#P(""w"", ""0x10"")
+#P(""h"", ""0x8"")
+#P(""autoW"", ""1"")",,,,,
+string,C117.DAT-choice-3-0,,,Ｇペン,A G-Pen,,
+string,C117.DAT-choice-3-1,,,ごぼう,Burdock,,
+string,C117.DAT-choice-3-2,,,ペリー・ローダン,Perry Rhodan,,
+string,C117.DAT-choice-3-3,,,ユーレイ！,GHOSTS!,,
+string,C117.DAT-choice-4-props,"#P(""tilemapId"", ""0x5"")
+#P(""x"", ""0x4"")
+#P(""y"", ""0x11"")
+#P(""w"", ""0x11"")
+#P(""h"", ""0x8"")
+#P(""autoW"", ""1"")",,,,,
+string,C117.DAT-choice-4-0,,,弓美ちゃんパニック,Yumimi-chan Panic,,
+string,C117.DAT-choice-4-1,,,ダンディライオン,Dandelions,,
+string,C117.DAT-choice-4-2,,,くじら,A whale,,
+string,C117.DAT-choice-4-3,,,ユーレイだってば！,"I'm telling you, GHOSTS!",,
+string,C117.DAT-choice-5-props,"#P(""tilemapId"", ""0x6"")
+#P(""x"", ""0x4"")
+#P(""y"", ""0x11"")
+#P(""w"", ""0xD"")
+#P(""h"", ""0x8"")
+#P(""autoW"", ""1"")",,,,,
+string,C117.DAT-choice-5-0,,,プニュームキン,Punyoomkin,,
+string,C117.DAT-choice-5-1,,,ヘロドトス,Herodotus,,
+string,C117.DAT-choice-5-2,,,もやし,Bean sprouts,,
+string,C117.DAT-choice-5-3,,,ユーレイかも,They could be ghosts,CHECK,
+string,C117.DAT-choice-6-props,"#P(""tilemapId"", ""0x8"")
+#P(""x"", ""0x4"")
+#P(""y"", ""0x13"")
+#P(""w"", ""0xF"")
+#P(""h"", ""0x6"")
+#P(""autoW"", ""1"")",,,,,
+string,C117.DAT-choice-6-0,,,マルスマティック,A Marsmatic,,
+string,C117.DAT-choice-6-1,,,関東ローム層,The Kanto Loam Formations,,
+string,C117.DAT-choice-6-2,,,ユーレイ,Ghosts,,
+string,C117.DAT-choice-7-props,"#P(""tilemapId"", ""0x7"")
+#P(""x"", ""0x4"")
+#P(""y"", ""0x13"")
+#P(""w"", ""0x9"")
+#P(""h"", ""0x6"")
+#P(""autoW"", ""1"")",,,,,
+string,C117.DAT-choice-7-0,,,ユーレイ,Ghosts,,
+string,C117.DAT-choice-7-1,,,[blank],,,UNTRANSLATED
+string,C117.DAT-choice-7-2,,,[blank],,,UNTRANSLATED
+,,,,"//==================================
+// File: C120A2.DAT
+//==================================",,,
+string,C120A2.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x7"")
+#P(""y"", ""0x4"")
+#P(""w"", ""0xB"")
+#P(""h"", ""0x4"")
+#P(""autoW"", ""1"")",,,,,
+string,C120A2.DAT-choice-0-0,,,人物紹介する,Introduce characters,"NOTE: the introduction is for both sakurako and shinichi, so this needs to be plural",
+string,C120A2.DAT-choice-0-1,,,しない,Don't do it,,
+,,,,"//==================================
+// File: C132A.DAT
+//==================================",,,
+string,C132A.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+//#P(""x"", ""0x17"")
+#P(""x"", ""0x16"")
+#P(""y"", ""0x3"")
+#P(""w"", ""0xD"")
+#P(""h"", ""0x4"")
+#P(""autoW"", ""1"")",,,,,
+string,C132A.DAT-choice-0-0,,,思わずなぐる,Reflexively punch him,,
+string,C132A.DAT-choice-0-1,,,蹴る,Kick him,,
+,,,,"//==================================
+// File: C136A.DAT
+//==================================",,,
+string,C136A.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x5"")
+#P(""y"", ""0x4"")
+#P(""w"", ""0xB"")
+#P(""h"", ""0x4"")
+#P(""autoW"", ""1"")",,,,,
+string,C136A.DAT-choice-0-0,,,人物紹介する,Introduce character,,
+string,C136A.DAT-choice-0-1,,,しない,Don't do it,,
+,,,,"//==================================
+// File: C136B.DAT
+//==================================",,,
+string,C136B.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x5"")
+#P(""y"", ""0x4"")
+#P(""w"", ""0xB"")
+#P(""h"", ""0x4"")
+#P(""autoW"", ""1"")",,,,,
+string,C136B.DAT-choice-0-0,,,人物紹介する,Introduce character,,
+string,C136B.DAT-choice-0-1,,,しない,Don't do it,,
+,,,,"//==================================
+// File: C136C.DAT
+//==================================",,,
+string,C136C.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x5"")
+#P(""y"", ""0x4"")
+#P(""w"", ""0xB"")
+#P(""h"", ""0x4"")
+#P(""autoW"", ""1"")",,,,,
+string,C136C.DAT-choice-0-0,,,人物紹介する,Introduce character,,
+string,C136C.DAT-choice-0-1,,,しない,Don't do it,,
+,,,,"//==================================
+// File: C143A.DAT
+//==================================",,,
+string,C143A.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x6"")
+#P(""y"", ""0x12"")
+#P(""w"", ""0xA"")
+#P(""h"", ""0x6"")
+#P(""autoW"", ""1"")",,,,,
+string,C143A.DAT-choice-0-0,,,すぐ行く,Go right away,,
+string,C143A.DAT-choice-0-1,,,少しゴネる,Whine about it,,
+string,C143A.DAT-choice-0-2,,,断わる,Refuse,,
+,,,,"//==================================
+// File: C161A.DAT
+//==================================",,,
+string,C161A.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+//#P(""x"", ""0x15"")
+#P(""x"", ""0x14"")
+#P(""y"", ""0x4"")
+#P(""w"", ""0x10"")
+#P(""h"", ""0x6"")
+#P(""autoW"", ""1"")",,,,,
+string,C161A.DAT-choice-0-0,,,つきとばす,Push her off,,
+string,C161A.DAT-choice-0-1,,,逃げる,Run away,,
+string,C161A.DAT-choice-0-2,,,ほおずりされるまま,Let her rub your cheek,,
+,,,,"//==================================
+// File: C161B.DAT
+//==================================",,,
+string,C161B.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x18"")
+#P(""y"", ""0x5"")
+#P(""w"", ""0xA"")
+#P(""h"", ""0x4"")
+#P(""autoW"", ""1"")",,,,,
+string,C161B.DAT-choice-0-0,,,愛してる,I love you,,
+string,C161B.DAT-choice-0-1,,,愛してない,I don't love you,,
+,,,,"//==================================
+// File: C161D.DAT
+//==================================",,,
+string,C161D.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x18"")
+#P(""y"", ""0x5"")
+#P(""w"", ""0xA"")
+#P(""h"", ""0x4"")
+#P(""autoW"", ""1"")",,,,,
+string,C161D.DAT-choice-0-0,,,愛してる,I love you,,
+string,C161D.DAT-choice-0-1,,,愛してない,I don't love you,,
+,,,,"//==================================
+// File: C164.DAT
+//==================================",,,
+string,C164.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x11"")
+#P(""y"", ""0x5"")
+#P(""w"", ""0x13"")
+#P(""h"", ""0x4"")
+#P(""autoW"", ""1"")",,,,,
+string,C164.DAT-choice-0-0,,,立ち上がるのを見ている,Watch her get up,,
+string,C164.DAT-choice-0-1,,,助ける,Help her out,,
+,,,,"//==================================
+// File: C174A.DAT
+//==================================",,,
+string,C174A.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x7"")
+#P(""y"", ""0x10"")
+#P(""w"", ""0xB"")
+#P(""h"", ""0x4"")
+#P(""autoW"", ""1"")",,,,,
+string,C174A.DAT-choice-0-0,,,人物紹介する,Introduce character,,
+string,C174A.DAT-choice-0-1,,,しない,Don't do it,,
+,,,,"//==================================
+// File: C174B.DAT
+//==================================",,,
+string,C174B.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x7"")
+#P(""y"", ""0x10"")
+#P(""w"", ""0xB"")
+#P(""h"", ""0x4"")
+#P(""autoW"", ""1"")",,,,,
+string,C174B.DAT-choice-0-0,,,人物紹介する,Introduce character,,
+string,C174B.DAT-choice-0-1,,,しない,Don't do it,,
+,,,,"//==================================
+// File: C180.DAT
+//==================================",,,
+string,C180.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x5"")
+#P(""y"", ""0x5"")
+#P(""w"", ""0x7"")
+#P(""h"", ""0x4"")
+#P(""autoW"", ""1"")",,,,,
+string,C180.DAT-choice-0-0,,,なぐる,Punch him,,
+string,C180.DAT-choice-0-1,,,蹴る,Kick him,,
+,,,,"//==================================
+// File: C203B.DAT
+//==================================",,,
+string,C203B.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+//#P(""x"", ""0x15"")
+#P(""x"", ""0x14"")
+#P(""y"", ""0x14"")
+#P(""w"", ""0x10"")
+#P(""h"", ""0x4"")
+#P(""autoW"", ""1"")",,,,,
+string,C203B.DAT-choice-0-0,,,本当の事を言う,Tell the truth,,
+string,C203B.DAT-choice-0-1,,,それとなくごまかす,Throw her off the trail,,
+,,,,"//==================================
+// File: C204A.DAT
+//==================================",,,
+string,C204A.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x4"")
+#P(""y"", ""0x6"")
+#P(""w"", ""0xD"")
+#P(""h"", ""0x4"")
+#P(""autoW"", ""1"")",,,,,
+string,C204A.DAT-choice-0-0,,,本当なんだもん,It's TRUE!,,
+string,C204A.DAT-choice-0-1,,,ごまかす,Duck the question,,
+,,,,"//==================================
+// File: C205A.DAT
+//==================================",,,
+string,C205A.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+//#P(""x"", ""0x15"")
+#P(""x"", ""0x14"")
+#P(""y"", ""0x4"")
+#P(""w"", ""0x10"")
+#P(""h"", ""0x4"")
+#P(""autoW"", ""1"")",,,,,
+string,C205A.DAT-choice-0-0,,,本当の事を言う,Tell the truth,,
+string,C205A.DAT-choice-0-1,,,それとなくごまかす,Throw her off the trail,,
+,,,,"//==================================
+// File: C205B.DAT
+//==================================",,,
+string,C205B.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+//#P(""x"", ""0x15"")
+#P(""x"", ""0x14"")
+#P(""y"", ""0x4"")
+#P(""w"", ""0x10"")
+#P(""h"", ""0x4"")
+#P(""autoW"", ""1"")",,,,,
+string,C205B.DAT-choice-0-0,,,本当の事を言う,Tell the truth,,
+string,C205B.DAT-choice-0-1,,,それとなくごまかす,Throw her off the trail,,
+,,,,"//==================================
+// File: C210A.DAT
+//==================================",,,
+string,C210A.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x17"")
+#P(""y"", ""0x5"")
+#P(""w"", ""0xD"")
+#P(""h"", ""0x6"")
+#P(""autoW"", ""1"")",,,,,
+string,C210A.DAT-choice-0-0,,,女の子の写真,Pictures of girls,,
+string,C210A.DAT-choice-0-1,,,体育館の写真,Pictures of the gym,,
+string,C210A.DAT-choice-0-2,,,ユーレイの写真,Pictures of ghosts,,
+,,,,"//==================================
+// File: C216A.DAT
+//==================================",,,
+string,C216A.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x4"")
+#P(""y"", ""0x4"")
+#P(""w"", ""0xE"")
+#P(""h"", ""0x4"")
+#P(""autoW"", ""1"")",,,,,
+string,C216A.DAT-choice-0-0,,,先に進む,Continue,,
+string,C216A.DAT-choice-0-1,,,余談ですが・・・・,If I might digress...,,
+string,C216A.DAT-choice-1-props,"#P(""tilemapId"", ""0x2"")
+#P(""x"", ""0x5"")
+#P(""y"", ""0x4"")
+#P(""w"", ""0x7"")
+#P(""h"", ""0x4"")
+#P(""autoW"", ""1"")",,,,,
+string,C216A.DAT-choice-1-0,,,はい,Yes,,
+string,C216A.DAT-choice-1-1,,,いいえ,No,,
+,,,,"//==================================
+// File: C224A.DAT
+//==================================",,,
+string,C224A.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x3"")
+#P(""y"", ""0x6"")
+#P(""w"", ""0x11"")
+#P(""h"", ""0x4"")
+#P(""autoW"", ""1"")",,,,,
+string,C224A.DAT-choice-0-0,,,思いきって話してみる,Boldly speak your mind,,
+string,C224A.DAT-choice-0-1,,,やっぱり黙っている,Keep quiet after all,,
+,,,,"//==================================
+// File: C228A.DAT
+//==================================",,,
+string,C228A.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x18"")
+#P(""y"", ""0x13"")
+#P(""w"", ""0xB"")
+#P(""h"", ""0x4"")
+#P(""autoW"", ""1"")",,,,,
+string,C228A.DAT-choice-0-0,,,人物紹介する,Introduce character,,
+string,C228A.DAT-choice-0-1,,,しない,Don't do it,,
+,,,,"//==================================
+// File: C233A.DAT
+//==================================",,,
+string,C233A.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x19"")
+#P(""y"", ""0x14"")
+#P(""w"", ""0xA"")
+#P(""h"", ""0x4"")
+#P(""autoW"", ""1"")",,,,,
+string,C233A.DAT-choice-0-0,,,賛成,Agree,,
+string,C233A.DAT-choice-0-1,,,賛成しない,Disagree,,
+,,,,"//==================================
+// File: C302A.DAT
+//==================================",,,
+string,C302A.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x4"")
+#P(""y"", ""0x13"")
+#P(""w"", ""0x11"")
+#P(""h"", ""0x6"")
+#P(""autoW"", ""1"")",,,,,
+string,C302A.DAT-choice-0-0,,,根性で乗り越える,Grit your teeth and climb,,
+string,C302A.DAT-choice-0-1,,,別の入口を探す,Look for another entrance,,
+string,C302A.DAT-choice-0-2,,,今日はあきらめて帰る,Give up and leave for today,,
+,,,,"//==================================
+// File: C303A.DAT
+//==================================",,,
+string,C303A.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x3"")
+#P(""y"", ""0x4"")
+#P(""w"", ""0x10"")
+#P(""h"", ""0x4"")
+#P(""autoW"", ""1"")",,,,,
+string,C303A.DAT-choice-0-0,,,根性で乗り越える,Grit your teeth and climb,,
+string,C303A.DAT-choice-0-1,,,別に入れる所を探す,Find another way in,,
+,,,,"//==================================
+// File: C313.DAT
+//==================================",,,
+string,C313.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x4"")
+#P(""y"", ""0x4"")
+#P(""w"", ""0x13"")
+#P(""h"", ""0x6"")
+#P(""autoW"", ""1"")",,,,,
+string,C313.DAT-choice-0-0,,,想像し続ける,Keep imagining,,
+string,C313.DAT-choice-0-1,,,何も考えないようにする,Try not to think,,
+string,C313.DAT-choice-0-2,,,歌をうたう,Sing a song,,
+,,,,"//==================================
+// File: C409A.DAT
+//==================================",,,
+string,C409A.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x5"")
+#P(""y"", ""0x4"")
+#P(""w"", ""0xB"")
+#P(""h"", ""0x4"")
+#P(""autoW"", ""1"")",,,,,
+string,C409A.DAT-choice-0-0,,,石を元に戻す,Put the rock back,,
+string,C409A.DAT-choice-0-1,,,ほおっておく,Leave it alone,,
+,,,,"//==================================
+// File: C418.DAT
+//==================================",,,
+string,C418.DAT-choice-0-props,"#P(""tilemapId"", ""0x0"")
+#P(""x"", ""0x5"")
+#P(""y"", ""0x6"")
+#P(""w"", ""0x6"")
+#P(""h"", ""0x4"")
+#P(""autoW"", ""1"")",,,,,
+string,C418.DAT-choice-0-0,,,馬,A horse,,
+string,C418.DAT-choice-0-1,,,魚,A fish,,
+string,C418.DAT-choice-1-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x5"")
+#P(""y"", ""0x6"")
+#P(""w"", ""0x6"")
+#P(""h"", ""0x6"")
+#P(""autoW"", ""1"")",,,,"NOTE: for technical reasons, the parmeters of this box other than tilemap id (including width) will also apply to the following box. the longest option should be the shared translation of ひげ in all cases, so i've left autowidth on.",
+string,C418.DAT-choice-1-0,,,魚,A fish,,
+string,C418.DAT-choice-1-1,,,ツノ,A horn,,
+string,C418.DAT-choice-1-2,,,ひげ,Whiskers,"NOTE: ひげ = ""moustache"", ""beard"", or ""whiskers"", hence the varying imagery depending on the choice made here. ""whiskers"" can technically be all of these in english, so that's what we're going with.",
+string,C418.DAT-choice-2-props,"#P(""tilemapId"", ""0x2"")
+#P(""x"", ""0x5"")
+#P(""y"", ""0x6"")
+#P(""w"", ""0x6"")
+#P(""h"", ""0x6"")
+#P(""autoW"", ""1"")",,,,"NOTE: as mentioned above, this box's parameters are ignored and the previous one's used in its place",
+string,C418.DAT-choice-2-0,,,馬,A horse,,
+string,C418.DAT-choice-2-1,,,ツノ,A horn,,
+string,C418.DAT-choice-2-2,,,ひげ,Whiskers,,
+,,,,"//==================================
+// File: C422A.DAT
+//==================================",,,
+string,C422A.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x15"")
+#P(""y"", ""0x3"")
+#P(""w"", ""0xE"")
+#P(""h"", ""0x6"")
+#P(""autoW"", ""1"")",,,,,
+string,C422A.DAT-choice-0-0,,,全部夢,All a dream,,
+string,C422A.DAT-choice-0-1,,,２人にかつがれた,Those two tricking you,,
+string,C422A.DAT-choice-0-2,,,やっぱり現実,The truth after all,,
+,,,,"//==================================
+// File: C428A.DAT
+//==================================",,,
+string,C428A.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x3"")
+#P(""y"", ""0x13"")
+#P(""w"", ""0x14"")
+#P(""h"", ""0x6"")
+#P(""autoW"", ""1"")",,,,,
+string,C428A.DAT-choice-0-0,,,ともえ投げをする,Do a judo throw,"NOTE: 巴投げ, a judo throw",
+string,C428A.DAT-choice-0-1,,,バックブリーカーをかける,Execute a backbreaker,NOTE: pro wrestling move,
+string,C428A.DAT-choice-0-2,,,岩石おとしをする,Back drop him,"NOTE: 岩石おとし is a pro wrestling move, apparently similar to if not the same as a back drop",
+,,,,"//==================================
+// File: C437A.DAT
+//==================================",,,
+string,C437A.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x4"")
+#P(""y"", ""0x4"")
+#P(""w"", ""0xE"")
+#P(""h"", ""0x6"")
+#P(""autoW"", ""1"")",,,,,
+string,C437A.DAT-choice-0-0,,,棒つつく,Poke it with a stick,,
+string,C437A.DAT-choice-0-1,,,ゴミ箱をかぶせる,Cover it with a trash can,,
+string,C437A.DAT-choice-0-2,,,ほおっておく,Leave it alone,,
+,,,,"//==================================
+// File: C447A.DAT
+//==================================",,,
+string,C447A.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x5"")
+#P(""y"", ""0x14"")
+#P(""w"", ""0xA"")
+#P(""h"", ""0x4"")
+#P(""autoW"", ""1"")",,,,,
+string,C447A.DAT-choice-0-0,,,変身する,Transform,,
+string,C447A.DAT-choice-0-1,,,変身しない,Don't transform,,
+,,,,"//==================================
+// File: C470.DAT
+//==================================",,,
+string,C470.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+//#P(""x"", ""0xF"")
+#P(""x"", ""0x11"")
+#P(""y"", ""0x13"")
+#P(""w"", ""0x8"")
+#P(""h"", ""0x6"")
+#P(""autoW"", ""1"")",,,,NOTE: offsetting X to keep this centered,
+string,C470.DAT-choice-0-0,,,部長が,Prez,,
+string,C470.DAT-choice-0-1,,,松崎君が,Matsuzaki,"NOTE: i'm not spending countless hours adding in-engine honorific support to the images just for this one line, we can live with dropping ""kun"" here",
+string,C470.DAT-choice-0-2,,,桜子が,Sakurako,"NOTE: and if it's supposed to be from yumimi's perspective, i don't know why they have ""matsuzaki-kun"" but not ""sakurako-chan"" here",
+,,,,"//==================================
+// File: C471D.DAT
+//==================================",,,
+string,C471D.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x4"")
+#P(""y"", ""0x12"")
+#P(""w"", ""0xE"")
+#P(""h"", ""0x6"")
+#P(""autoW"", ""1"")",,,,,
+string,C471D.DAT-choice-0-0,,,わきの木をのぼる,Climb the nearby tree,,
+string,C471D.DAT-choice-0-1,,,ジャンプしてみる,Jump for it,,
+string,C471D.DAT-choice-0-2,,,用具置き場を見る,Look in the equipment shed,,
+,,,,"//==================================
+// File: C472.DAT
+//==================================",,,
+string,C472.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x18"")
+#P(""y"", ""0x13"")
+#P(""w"", ""0xD"")
+#P(""h"", ""0x6"")
+#P(""autoW"", ""1"")",,,,,
+string,C472.DAT-choice-0-0,,,よく見てみる,Take a good look,,
+string,C472.DAT-choice-0-1,,,石を投げる,Throw a rock,,
+string,C472.DAT-choice-0-2,,,飛び跳ねてみる,Try hopping,,
+,,,,"//==================================
+// File: C475A.DAT
+//==================================",,,
+string,C475A.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+//#P(""x"", ""0x15"")
+#P(""x"", ""0x11"")
+#P(""y"", ""0x14"")
+#P(""w"", ""0xE"")
+#P(""h"", ""0x4"")
+#P(""autoW"", ""1"")",,,,,
+string,C475A.DAT-choice-0-0,,,ジャンプしてみる,Jump for it,,
+string,C475A.DAT-choice-0-1,,,用具置き場を見る,Look in the equipment shed,,
+,,,,"//==================================
+// File: C506A.DAT
+//==================================",,,
+string,C506A.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x5"")
+#P(""y"", ""0x14"")
+#P(""w"", ""0x11"")
+#P(""h"", ""0x4"")
+#P(""autoW"", ""1"")",,,,,
+string,C506A.DAT-choice-0-0,,,教えてもらう,Get her to tell,,
+string,C506A.DAT-choice-0-1,,,教えてくれなくていい,There's no need to tell,,
+,,,,"//==================================
+// File: C508A.DAT
+//==================================",,,
+string,C508A.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x4"")
+#P(""y"", ""0x4"")
+#P(""w"", ""0xE"")
+#P(""h"", ""0x4"")
+#P(""autoW"", ""1"")",,,,,
+string,C508A.DAT-choice-0-0,,,ほおずりする,Rub cheeks,,
+string,C508A.DAT-choice-0-1,,,なんとかごまかす,Trick her somehow,,
+,,,,"//==================================
+// File: C508F.DAT
+//==================================",,,
+string,C508F.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x4"")
+#P(""y"", ""0x4"")
+#P(""w"", ""0xE"")
+#P(""h"", ""0x4"")
+#P(""autoW"", ""1"")",,,,,
+string,C508F.DAT-choice-0-0,,,ほおずりする,Rub cheeks,,
+string,C508F.DAT-choice-0-1,,,なんとかごまかす,Trick her somehow,,
+,,,,"//==================================
+// File: C513A.DAT
+//==================================",,,
+string,C513A.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x6"")
+#P(""y"", ""0x12"")
+#P(""w"", ""0xA"")
+#P(""h"", ""0x6"")
+#P(""autoW"", ""1"")",,,,,
+string,C513A.DAT-choice-0-0,,,愛してる,I love you,,
+string,C513A.DAT-choice-0-1,,,愛してない,I don't love you,,
+string,C513A.DAT-choice-0-2,,,ごまかす,Duck the question,,
+,,,,"//==================================
+// File: C602A.DAT
+//==================================",,,
+string,C602A.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x4"")
+#P(""y"", ""0x14"")
+#P(""w"", ""0xD"")
+#P(""h"", ""0x6"")
+#P(""autoW"", ""1"")",,,,,
+string,C602A.DAT-choice-0-0,,,ごはんを食べる,Eat dinner,"NOTE: again, literally just ""a meal"", but that sounds odd here",
+string,C602A.DAT-choice-0-1,,,お風呂に入る,Take a bath,,
+string,C602A.DAT-choice-0-2,,,寝る,Go to bed,,
+,,,,"//==================================
+// File: C705C.DAT
+//==================================",,,
+string,C705C.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x6"")
+#P(""y"", ""0x4"")
+#P(""w"", ""0xB"")
+#P(""h"", ""0x4"")
+#P(""autoW"", ""1"")",,,,,
+string,C705C.DAT-choice-0-0,,,無理矢理通る,Reluctantly head across,,
+string,C705C.DAT-choice-0-1,,,別の道を行く,Go another way,,
+,,,,"//==================================
+// File: C718.DAT
+//==================================",,,
+string,C718.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x5"")
+#P(""y"", ""0x5"")
+#P(""w"", ""0x13"")
+#P(""h"", ""0x4"")
+#P(""autoW"", ""1"")",,,,,
+string,C718.DAT-choice-0-0,,,飛びついて桜子を助ける,Spring to Sakurako's aid,,
+string,C718.DAT-choice-0-1,,,まず考える,Think it over first,,
+,,,,"//==================================
+// File: C720A.DAT
+//==================================",,,
+string,C720A.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x12"")
+#P(""y"", ""0x12"")
+#P(""w"", ""0x13"")
+#P(""h"", ""0x6"")
+#P(""autoW"", ""1"")",,,,,
+string,C720A.DAT-choice-0-0,,,カゴのネズミと引き換え,Swap for the caged mouse,,
+string,C720A.DAT-choice-0-1,,,話し合う,Talk with them,,
+string,C720A.DAT-choice-0-2,,,ひとまず逃げる,Run away for now,,
+,,,,"//==================================
+// File: C727B.DAT
+//==================================",,,
+string,C727B.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x4"")
+#P(""y"", ""0x12"")
+#P(""w"", ""0xA"")
+#P(""h"", ""0x6"")
+#P(""autoW"", ""1"")",,,,,
+string,C727B.DAT-choice-0-0,,,大声で騒ぐ,Make a bunch of noise,,
+string,C727B.DAT-choice-0-1,,,根性で変身,Transform via sheer will,,
+string,C727B.DAT-choice-0-2,,,歌をうたう,Sing a song,,
+,,,,"//==================================
+// File: C767A.DAT
+//==================================",,,
+string,C767A.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x3"")
+#P(""y"", ""0x13"")
+#P(""w"", ""0x13"")
+#P(""h"", ""0x4"")
+#P(""autoW"", ""1"")",,,,,
+string,C767A.DAT-choice-0-0,,,とにかくみんなを助ける,Start by rescuing them,CHECK,
+string,C767A.DAT-choice-0-1,,,なんとか変身する,Transform somehow,,
+,,,,"//==================================
+// File: C767C.DAT
+//==================================",,,
+string,C767C.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x3"")
+#P(""y"", ""0x12"")
+#P(""w"", ""0xE"")
+#P(""h"", ""0x6"")
+#P(""autoW"", ""1"")",,,,,
+string,C767C.DAT-choice-0-0,,,２階の用具準備室,2nd floor equipment room,,
+string,C767C.DAT-choice-0-1,,,屋根の上,The roof,,
+string,C767C.DAT-choice-0-2,,,校庭,The schoolyard,,
+,,,,"//==================================
+// File: C949A.DAT
+//==================================",,,
+string,C949A.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x17"")
+#P(""y"", ""0x5"")
+#P(""w"", ""0xA"")
+#P(""h"", ""0x4"")
+#P(""autoW"", ""1"")",,,,,
+string,C949A.DAT-choice-0-0,,,移動,Move,,
+string,C949A.DAT-choice-0-1,,,助けを呼ぶ,Call for help,,
+,,,,"//==================================
+// File: C964A.DAT
+//==================================",,,
+string,C964A.DAT-choice-0-props,"#P(""tilemapId"", ""0x1"")
+#P(""x"", ""0x4"")
+#P(""y"", ""0x4"")
+#P(""w"", ""0x10"")
+#P(""h"", ""0x6"")
+#P(""autoW"", ""1"")",,,,,
+string,C964A.DAT-choice-0-0,,,一緒に追いかける,Chase it with them,,
+string,C964A.DAT-choice-0-1,,,みんなを応援する,Cheer them on,,
+string,C964A.DAT-choice-0-2,,,とりあえず見ている,Just watch for now,,

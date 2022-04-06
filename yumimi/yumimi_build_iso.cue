@@ -1,0 +1,16 @@
+FILE "yumimi_build_iso_01.iso" BINARY
+  TRACK 01 MODE1/2048
+    INDEX 00 00:00:00
+    INDEX 01 00:00:00
+FILE "yumimi_build_iso_02.wav" WAVE
+  TRACK 02 AUDIO
+    PREGAP 00:02:00
+    INDEX 01 00:00:00
+FILE "yumimi_build_iso_03.wav" WAVE
+  TRACK 03 AUDIO
+    PREGAP 00:02:00
+    INDEX 01 00:00:00
+FILE "yumimi_build_iso_04.wav" WAVE
+  TRACK 04 AUDIO
+    PREGAP 00:02:00
+    INDEX 01 00:00:00

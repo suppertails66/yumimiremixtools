@@ -1,0 +1,7 @@
+[Properties]
+//NumBgMaps=0x5
+NumBgMaps=0x8
+NumObjMaps=0x0
+NumPcmData=0x0
+Unknown=0x30080
+

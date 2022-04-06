@@ -1,0 +1,5 @@
+loc_00003d71: transferPatternData           ()
+loc_00003d73: renderObjsHigh?               (< 0x00 0x01 > )
+loc_00003d77: changeFgTilemap               ([ 0x00 ])
+loc_00003d7a: draw                          (0x01)
+loc_00003d7d: op02                          (0x0012)

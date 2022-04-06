@@ -1,0 +1,165 @@
+[Properties]
+numChars=160
+charsPerRow=16
+gridW=16
+gridH=16
+#noKerning=1
+autoKerningOffset=0
+autoKerningMode=square
+
+# null
+
+[char0000]
+noKerningIfFirst=1
+noKerningIfSecond=1
+advanceWidth=0
+
+# digits
+
+[char0001]
+noKerningIfFirst=1
+noKerningIfSecond=1
+#advanceWidth=7
+
+[char0002]
+noKerningIfFirst=1
+noKerningIfSecond=1
+#advanceWidth=7
+
+[char0003]
+noKerningIfFirst=1
+noKerningIfSecond=1
+#advanceWidth=7
+
+[char0004]
+noKerningIfFirst=1
+noKerningIfSecond=1
+#advanceWidth=7
+
+[char0005]
+noKerningIfFirst=1
+noKerningIfSecond=1
+#advanceWidth=7
+
+[char0006]
+noKerningIfFirst=1
+noKerningIfSecond=1
+#advanceWidth=7
+
+[char0007]
+noKerningIfFirst=1
+noKerningIfSecond=1
+#advanceWidth=7
+
+[char0008]
+noKerningIfFirst=1
+noKerningIfSecond=1
+#advanceWidth=7
+
+[char0009]
+noKerningIfFirst=1
+noKerningIfSecond=1
+#advanceWidth=7
+
+[char000A]
+noKerningIfFirst=1
+noKerningIfSecond=1
+#advanceWidth=7
+
+# '.'
+#[char003F]
+#noKerningIfFirst=1
+#noKerningIfSecond=1
+#advanceWidth=3
+
+# ','
+#[char0040]
+#noKerningIfFirst=1
+#noKerningIfSecond=1
+#advanceWidth=4
+
+# fixed spaces
+
+#[char005E]
+#advanceWidth=12
+
+#[char005F]
+#advanceWidth=8
+
+# exclamation mark
+[char003F]
+noKerningIfFirst=1
+noKerningIfSecond=1
+
+# question mark
+[char0040]
+noKerningIfFirst=1
+noKerningIfSecond=1
+
+# left parenthesis
+[char0041]
+noKerningIfFirst=1
+noKerningIfSecond=1
+
+# right parenthesis
+[char0042]
+noKerningIfFirst=1
+noKerningIfSecond=1
+
+# semicolon
+[char0043]
+noKerningIfFirst=1
+noKerningIfSecond=1
+
+# colon
+[char0044]
+noKerningIfFirst=1
+noKerningIfSecond=1
+
+# period
+[char0048]
+noKerningIfFirst=1
+noKerningIfSecond=1
+
+# comma
+#[char0049]
+#noKerningIfFirst=1
+#noKerningIfSecond=1
+
+# apostrophe
+#[char004A]
+#noKerningIfFirst=1
+#noKerningIfSecond=1
+
+# left quote
+[char004B]
+noKerningIfFirst=1
+noKerningIfSecond=1
+
+# right quote
+[char004C]
+noKerningIfFirst=1
+noKerningIfSecond=1
+
+# hyphen
+[char004D]
+noKerningIfFirst=1
+noKerningIfSecond=1
+
+# dash
+[char004E]
+noKerningIfFirst=1
+noKerningIfSecond=1
+
+# space
+[char004F]
+noKerningIfFirst=1
+noKerningIfSecond=1
+advanceWidth=3
+
+# ellipsis
+[char0050]
+noKerningIfFirst=1
+noKerningIfSecond=1
+
+

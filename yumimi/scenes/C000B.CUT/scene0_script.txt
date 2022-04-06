@@ -1,0 +1,5 @@
+loc_00003f5b: transferPatternData           ()
+loc_00003f5d: changeFgTilemap               ([ 0x00 ])
+loc_00003f60: draw                          (0x01)
+loc_00003f63: playFm??                      (0x08)
+loc_00003f66: op02                          (0x0011)

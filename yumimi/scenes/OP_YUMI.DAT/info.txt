@@ -1,0 +1,4 @@
+[Properties]
+NumSubscenes=0x18
+SceneType=0x0
+
